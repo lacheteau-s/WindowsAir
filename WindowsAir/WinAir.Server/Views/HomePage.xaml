@@ -1,0 +1,17 @@
+﻿<views:BasePage x:Class="WinAir.Server.Views.HomePage"
+				x:TypeArguments="vm:HomeViewModel"
+				xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+				xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+				xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+				xmlns:views="clr-namespace:WinAir.Server.Views"
+				xmlns:vm="clr-namespace:WinAir.Server.ViewModels"
+				mc:Ignorable="d"
+				d:DesignHeight="300" d:DesignWidth="300"
+				Title="HomePage"
+				Background="Cyan">
+	<Grid>
+		<!-- TODO: remove and replace by actual content -->
+		<Button Content="Navigate" Width="100" Height="25" Click="NavigateButton_Click" />
+	</Grid>
+</views:BasePage>
