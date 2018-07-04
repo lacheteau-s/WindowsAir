@@ -57,7 +57,9 @@
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
     <Compile Include="Services\Implementations\NavigationService.cs" />
+    <Compile Include="Services\Implementations\NetworkService.cs" />
     <Compile Include="Services\Interfaces\INavigationService.cs" />
+    <Compile Include="Services\Interfaces\INetworkService.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\BasePage.cs" />

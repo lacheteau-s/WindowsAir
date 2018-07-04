@@ -6,9 +6,12 @@ namespace WinAir.Server.ViewModels
 	{
 		private INavigationService _navigationService;
 
-		public HomeViewModel(INavigationService navigationService)
+		private INetworkService _networkService;
+
+		public HomeViewModel(INavigationService navigationService, INetworkService networkService)
 		{
 			_navigationService = navigationService;
+			_networkService = networkService;
 		}
 	}
 }
